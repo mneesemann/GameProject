@@ -9,7 +9,7 @@ class Game(object):
 		super(Game, self).__init__()
 		self.arg = arg
 
-	def makeGame():
+	def makeGame(self):
 		print("hello")
 		""" For now this just creates an instance of player to test these funcitons out."""
 		player = Player.Player(120,120)
@@ -20,4 +20,4 @@ class Game(object):
 
 game = Game(3)
 print(game.arg)
-game.makeGame  # I have no idea why this isn't printing
+game.makeGame() 
