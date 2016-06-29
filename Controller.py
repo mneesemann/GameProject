@@ -1,5 +1,6 @@
 import Game as GameModule
 import View as ViewModule
+import tkinter
 
 """ This is our main file that will actually run the damn program"""
 
@@ -11,4 +12,11 @@ class Controller(object):
 		self.arg = arg
 
 game = GameModule.Game(3)
-view = ViewModule.View(2)
+
+
+root = tkinter.Tk()
+
+view = ViewModule.View(root)
+view.makeSplash(root)
+root.mainloop()
+
