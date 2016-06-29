@@ -18,6 +18,5 @@ class Game(object):
 		print ("we're inside makegame alright")
 		print(player.HP)
 
-game = Game(3)
-print(game.arg)
-game.makeGame() 
+	def Attack(self, Attacker, Defender):
+		Defender.HP = Defender.HP -5 
