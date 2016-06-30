@@ -26,9 +26,9 @@ class SplashScreen(object):
 	def __init__(self, master):
 		self.frame = tk.Frame(master)
 		self.frame.pack()
-		self.label = tk.Label(master, text = "Hello there!")
+		self.label = tk.Label(master, text = "Hello there!  Shall we start the game?")
 		self.label.pack()
-		self.button = tk.Button(master, text = "Change", command = self.change)
+		self.button = tk.Button(master, text = "Yes, let's", command = self.change)
 		self.button.pack()
 		
 
