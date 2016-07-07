@@ -60,8 +60,8 @@ class Controller(object):
 
     #callback function used by the BattleScreen when the user clicks "Attack"
     def onClickAttack(self):
-        #define me!
-        #pass
+        print("wer're inside onClickAttack!")
+        self.battleScreen.update(str(4),str(2))  #I was just figuring out how to use this thing :)
 
     #callback function used by the game over screen when the user clicks "Play Again"
     def onClickPlayAgain(self):
