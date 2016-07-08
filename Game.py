@@ -15,7 +15,6 @@ class Game(object):
 	youreAllSlutsPunch = Abilities.Ability("You're all SLUTS!",7,5)
 	listOfAbilities = [stickArround,chillOut,youreAllSlutsPunch]
 
-
 	def __init__(self):
 		super(Game, self).__init__()
 
@@ -28,3 +27,13 @@ class Game(object):
 
 	def makePlayer(self,HP,MP,abilities):
 		return Player.Player(HP,MP,abilities)
+
+	def makeMonster(self,HP,MP,abilities):
+		return Monster.Monster(HP,MP,abilities)
+
+
+
+
+
+
+	
