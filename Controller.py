@@ -40,7 +40,7 @@ class Controller(object):
         self.arg = arg
 
         #Setting up the Game Data
-        self.game = GameModule.Game(3)
+        self.game = GameModule.Game()
 
         #Loading up the GUI Views
         self.tkRoot = tk.Tk()
